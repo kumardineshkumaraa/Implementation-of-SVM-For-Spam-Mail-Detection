@@ -8,10 +8,10 @@ To write a program to implement the SVM For Spam Mail Detection.
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. Gather a labeled dataset containing both spam and non-spam emails, with labels typically as 0 (non-spam) and 1 (spam)
-2. Clean the email text by removing punctuation, converting text to lowercase, and removing stop words to reduce noise.
-3. Split the dataset into training and testing sets, typically using an 80-20 or 70-30 ratio.
-4. Train the SVM on the training data, allowing it to learn patterns associated with spam and non-spam emails.
+Step-1:Gather a labeled dataset containing both spam and non-spam emails, with labels typically as 0 (non-spam) and 1 (spam)
+Step-2: Clean the email text by removing punctuation, converting text to lowercase, and removing stop words to reduce noise.
+Step-3: Split the dataset into training and testing sets, typically using an 80-20 or 70-30 ratio.
+Step-4: Train the SVM on the training data, allowing it to learn patterns associated with spam and non-spam emails.
 
 ## Program:
 ```
@@ -66,6 +66,7 @@ accuracy
 
 
 ## Output:
+
 ![image](https://github.com/user-attachments/assets/169fec4a-a86b-4504-9b3d-e7b2738b168b)
 
 ![image](https://github.com/user-attachments/assets/2b903aa2-7226-42c2-afae-03b12ebcbc65)
@@ -73,6 +74,8 @@ accuracy
 ![image](https://github.com/user-attachments/assets/5d6c9720-b536-496b-9d8d-8c201dab4002)
 
 ![image](https://github.com/user-attachments/assets/d6994dbd-4c5f-4df5-8845-99a68656b101)
+
+Accuracy:
 
 ![image](https://github.com/user-attachments/assets/dba52b05-04e6-4fd6-b7d9-c965d651cece)
 
